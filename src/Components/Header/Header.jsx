@@ -95,9 +95,7 @@ const Header = () => {
         </div>
 
         <div className="Responsive_resume_link">
-          <a href="#">
-            <Button text="Resume" isImg />
-          </a>
+            <Button onClick={handleDownload} text="Resume" isImg />
         </div>
       </section>
     </>
