@@ -16,8 +16,8 @@ const ContactUs = ({data}) => {
               <form>
                 <ul>
                   <li><Button text="Get in Touch"/></li>
-                  <li><a href="github.com/Aarij-khan"><FaGithub /></a></li>
-                   <li><a href="www.linkedin.com/in/aarij-raza-146364328"><FaLinkedin /></a></li>
+                  <li><a href="https://github.com/Aarij-khan"><FaGithub /></a></li>
+                   <li><a href="https://www.linkedin.com/in/aarij-raza-146364328"><FaLinkedin /></a></li>
                     <li><a href="mailto:aarij502@gmail.com"><SiGmail /></a></li>
                     <li><a href="https://wa.me/+923282183869"><FaPhoneAlt /></a></li>
                 </ul>
