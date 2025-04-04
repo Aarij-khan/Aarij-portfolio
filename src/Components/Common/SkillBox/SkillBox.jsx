@@ -6,7 +6,7 @@ const SkillBox = ({data}) => {
     const {imgURL, text} = data;
   return (
     <div className="box">
-        <img src={imgURL} alt="" />
+        <img src={imgURL} alt="" className="img" />
         <h5>{text}</h5>
     </div>
   )

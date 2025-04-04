@@ -24,3 +24,6 @@
 .box:hover>img{
     background-color: #fff;
 }
+.img{
+    border-radius: 30%;
+}
