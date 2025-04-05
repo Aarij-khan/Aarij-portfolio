@@ -39,7 +39,7 @@ const ProjectBannerData = [
         heading: "Saas landing page",
         para: "🚀 Frontend development :) Successfully developed a modern, fully responsive, and animated website using Next.js. Focused on building high-performance, user-friendly, and visually engaging web experiences.",
         read: "./assets/images/Read-More.png",
-        readLink: "aarij-landing-page.vercel.app",
+        readLink: "https://aarij-landing-page.vercel.app",
         isReverse: true
     },
     {
@@ -56,7 +56,7 @@ const ProjectBannerData = [
         heading: "Solar panel website",
         para: "I developed a Solar Panel website that provides users with information about solar energy solutions. The site features a user-friendly interface where visitors can explore various solar panel options and their benefits. I built this project using React js and some animation libraries, ensuring a responsive design for optimal viewing on all devices. This project not only enhanced my web development skills but also deepened my understanding of renewable energy solutions. I’m excited to showcase the Solar Panel website in my portfolio!",
         read: "./assets/images/Read-More.png",
-        readLink: "https://zjchatapp.netlify.app/",
+        readLink: "https://solarsavers.netlify.app",
         isReverse: true
     },
 ]
