@@ -7,7 +7,7 @@ const ProjectBanner = ({data}) => {
     return (
     <div className={isReverse == true ? "banner_reverse" : "banner_wrapper"}>
       <div className="img_wrapper">
-        <img src={imgUrl} alt="" />
+        <img src={imgUrl} alt="" className="project-image"/>
       </div>
 
       <div className="text_wrapper">

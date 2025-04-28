@@ -19,7 +19,6 @@ const Home = () => {
         <Experience/>
         <About/>
         <Project/>
-        {/* <Testimonial/> */}
         <ContactUs data={ContactUsData}/>
     </div>
   )

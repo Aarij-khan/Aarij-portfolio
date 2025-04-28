@@ -8,7 +8,7 @@ const ExperienceBox = ({data}) => {
     <div className="ExperienceBox">
       <div className="ExperienceBox-header">
         <div className="heading-wrapper">
-            <img src={imgUrl} alt="" />
+            <img src={imgUrl} alt="" className="images" />
             <h3>{heading}</h3>
         </div>
         <p>{duration}</p>
