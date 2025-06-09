@@ -14,7 +14,7 @@ const ProjectBannerData = [
         heading: "Saas Landing Page (Web canva studio)",
         para: "I have completed my latest project on Saas Landing Page for Webcanva, This project is a fully responsive and animated website built using Next.js. It showcases the features and benefits of Webcanva, a platform for creating stunning graphics and designs. The site is designed to provide an engaging user experience with smooth animations and a modern layout.",
         read: "./assets/images/Read-More.png",
-        readLink: "https://zalvox.vercel.app",
+        readLink: "https://webcanvastudio.vercel.app/",
         isReverse: true
     },
     {
