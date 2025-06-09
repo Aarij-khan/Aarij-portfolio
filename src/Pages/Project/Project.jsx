@@ -8,8 +8,9 @@ import ProjectBannerData from "./ProjectBannerData";
 const Project = () => {
   return (
     <section id="project" className="project">
-      <div className="container">
+      <div >
         <div className="project-wrapper">
+          <div className="project-heading">
             <Heading text="My" Span="Project" light/>
 
             {ProjectBannerData.map((item, index)=>{
@@ -17,6 +18,8 @@ const Project = () => {
                 <ProjectBanner key={index} data={item}/>
               )
             })}
+
+          </div>
         </div>
       </div>
     </section>

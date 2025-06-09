@@ -12,8 +12,9 @@
 }
 .img_wrapper{
     height: 400px;
-    width: 40%;
+    width: 45%;
     border-radius: 10px !important;
+    object-fit: center;
 }
 .img_wrapper img{
     height: 100%;
