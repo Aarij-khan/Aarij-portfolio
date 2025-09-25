@@ -3,11 +3,18 @@ import "./ProjectBanner.css";
 
 const ProjectBanner = ({data}) => {
     
-    const {imgUrl, serialNo, heading, para, read, readLink, isReverse} = data;
+    const {imgUrl, serialNo, heading, para, read, readLink, isReverse, video} = data;
     return (
     <div className={isReverse == true ? "banner_reverse" : "banner_wrapper"}>
       <div className="img_wrapper">
-        <img src={imgUrl} alt="" className="project-image"/>
+        {
+          video ? (
+              <video className="project-image" autoPlay loop muted width="100%">
+              <source src={imgUrl} type="video/mp4" />
+            </video>
+          ) : (
+            <img src={imgUrl} alt="" className="project-image"/>
+          )}
       </div>
 
       <div className="text_wrapper">
