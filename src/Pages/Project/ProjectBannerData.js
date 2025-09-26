@@ -5,7 +5,7 @@ const ProjectBannerData = [
         heading: "Grocery website project",
         para: "I have completed my latest project on a Grocery Store using HTML, CSS, and JavaScript. We can also use the Next.js framework for better performance, but this project will be used in Shopify and WordPress themes.",
         read: "./assets/images/Read-More.png",
-        readLink: "https://grocery-web-by-aarij.netlify.app/",
+        readLink: false,
         isReverse: true,
         video : true
     },
@@ -15,7 +15,7 @@ const ProjectBannerData = [
         heading: "Fabrin website project",
         para: "I have completed my latest project on a Fabrin website using HTML, CSS, and JavaScript. We can also use the Next.js framework for better performance, but this project will be used in Shopify and WordPress themes.",
         read: "./assets/images/Read-More.png",
-        readLink: "https://fabrin-web-by-aarij.netlify.app/",
+        readLink: false,
         isReverse: false,
         video : true
     },
