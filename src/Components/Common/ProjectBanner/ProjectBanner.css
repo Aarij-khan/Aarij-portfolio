@@ -33,7 +33,7 @@
   object-fit: center;
 }
 .img_wrapper img {
-  height: 100%;
+  height: auto;
   width: 100%;
   object-fit: cover;
   border-radius: 10px !important;

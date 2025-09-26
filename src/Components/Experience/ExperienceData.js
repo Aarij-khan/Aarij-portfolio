@@ -1,6 +1,6 @@
 const ExperienceData = [
     {
-        imgUrl: "./assets/images/faaust.jfif",
+        imgUrl: "./assets/images/fuuast.png",
         heading: "Bachelor of Science in Computer Science (BSCS)",
         duration: "(In Progress)",
         description: "I am currently pursuing a Bachelor of Science in Computer Science (BSCS) at Federal Urdu University (FAAUST). This program has provided me with a strong foundation in computer science principles, programming languages, and software development. I am actively engaged in coursework that enhances my technical skills and prepares me for a successful career in the field."
