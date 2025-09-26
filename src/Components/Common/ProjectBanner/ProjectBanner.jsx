@@ -9,11 +9,13 @@ const ProjectBanner = ({data}) => {
       <div className="img_wrapper">
         {
           video ? (
-              <video className="project-image" autoPlay loop muted width="100%">
+              <video className="project-video" autoPlay loop muted width="100%">
               <source src={imgUrl} type="video/mp4" />
             </video>
           ) : (
-            <img src={imgUrl} alt="" className="project-image"/>
+            <div className="img_container">
+              <img src={imgUrl} alt="" className="project-image"/>
+            </div>
           )}
       </div>
 
