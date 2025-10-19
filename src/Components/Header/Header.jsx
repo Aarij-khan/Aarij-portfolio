@@ -10,8 +10,8 @@ const Header = () => {
   const [initialValue, setInitialValue] = useState(false);
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/Aarij raza Resume.pdf";
-    link.download = "Aarij raza Resume.pdf";
+    link.href = "../assets/images/aarij-raza-ats.pdf";
+    link.download = "Aarij raza.pdf";
     link.click();
   };
 
