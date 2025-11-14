@@ -77,8 +77,9 @@ const ProjectBanner = ({data}) => {
         <h2>{serialNo}</h2>
         <h3>{heading}</h3>
         <p className="text_wrapper_para">{para}</p>
+        
         {
-          readLink == false ? <span style={{opacity:0.5, cursor:"not-allowed"}}><img src={read} alt="" /></span> : null
+          readLink == false ? <span style={{opacity:0.5, cursor:"not-allowed"}}><img src={read} alt="" /></span> : <a href={readLink}><img src={read} alt="" /></a>
         }
       </div>
     </div>

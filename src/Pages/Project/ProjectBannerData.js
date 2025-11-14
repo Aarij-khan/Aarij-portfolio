@@ -1,7 +1,17 @@
 const ProjectBannerData = [
     {
-        imgUrl: "./assets/images/grocery.mp4",
+        imgUrl: "./assets/images/nexcent.png",
         serialNo: "01",
+        heading: "Nexcent website project",
+        para: "I’ve completed my latest project, NEXTENT, a modern landing page built using Next js. For enhanced performance, it can also be implemented in Next.js. This project showcases a fully responsive, pixel-perfect design and smooth interactions.",
+        read: "./assets/images/Read-More.png",
+        readLink: "http://nexcent-by-aarij.vercel.app/",
+        isReverse: false,
+        video : false
+    },
+    {
+        imgUrl: "./assets/images/grocery.mp4",
+        serialNo: "02",
         heading: "Grocery website project",
         para: "I have completed my latest project on a Grocery Store using HTML, CSS, and JavaScript. We can also use the Next.js framework for better performance, but this project will be used in Shopify and WordPress themes. Note: Company allowed me to share only a video of the project.",
         read: "./assets/images/Read-More.png",
