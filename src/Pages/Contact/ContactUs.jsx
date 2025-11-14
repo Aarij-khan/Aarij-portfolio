@@ -4,7 +4,7 @@ import Button from "../../Components/Common/Button/Button";
 import "./ContactUs.css";
 import "./responsive.css"
 import { FaGithub, FaLinkedin, FaPhoneAlt } from "react-icons/fa";
-import { SiGmail } from "react-icons/si";
+import { SiGmail } from "react-icons/si"; 
 
 const ContactUs = ({data}) => {
   const {heading1, span, heading2, description, email, contactNo} = data;
