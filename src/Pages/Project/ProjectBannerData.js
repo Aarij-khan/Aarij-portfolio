@@ -3,7 +3,7 @@ const ProjectBannerData = [
         imgUrl: "./assets/images/nexcent.png",
         serialNo: "01",
         heading: "Nexcent website project",
-        para: "I’ve completed my latest project, NEXTENT, a modern landing page built using Next js. For enhanced performance, it can also be implemented in Next.js. This project showcases a fully responsive, pixel-perfect design and smooth interactions.",
+        para: "I’ve completed my latest pixel perfect website from figma file, Nexcent, a modern landing page built using Next js. For enhanced performance, it can also be implemented in Next.js. This project showcases a fully responsive, pixel-perfect design and smooth interactions.",
         read: "./assets/images/Read-More.png",
         readLink: "http://nexcent-by-aarij.vercel.app/",
         isReverse: false,
